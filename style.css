@@ -1,15 +1,15 @@
 /* Basic Style */
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
-li, h3 {
-  list-style:none;
+li,h3 {
+  list-style: none;
 }
 
-input,button{
-  outline:none;
+input,button {
+  outline: none;
 }
 
 li > * {
@@ -54,7 +54,7 @@ li > * {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add__wrapper {
@@ -134,7 +134,7 @@ li > * {
   width: 226px;
 }
 
-.item >    .input {
+.item > .input {
   width: 226px
 }
 
@@ -150,20 +150,20 @@ li > * {
 
 /* Completed */
 .page__list#completed .page__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .page__list .item .input {
-  display:none
+  display: none;
 }
 
 .page__list .item.edit-mode .input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .page__list .item.edit-mode .page__label {
-  display:none;
+  display: none;
 }
