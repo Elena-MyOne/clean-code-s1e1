@@ -135,7 +135,7 @@ li > * {
 }
 
 .item > .input {
-  width: 226px
+  width: 226px;
 }
 
 .button.delete .page__remove {
@@ -161,7 +161,7 @@ li > * {
 
 .page__list .item.edit-mode .input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .page__list .item.edit-mode .page__label {
